@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>AddressBook</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="practice.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+			<h1>Address Book</h1>
+		</div>
+		<div class="quickadd"><button class="btn btn-info" id="QuickAdd">+ Add</button></div><br>
+		<div class="quickaddForm">
+			<label for="fullname">Name</label>
+			<input type="text" id="fullname" class="formFields"><br><br>
+			<label for="phone">PhoneNumber</label>
+			<input type="text" id="phone" class="formFields"><br><br>
+			<label for="address">Address</label>
+			<input type ="text" id="address"  class="formFields"><br><br>
+			<label for="city">City</label>
+			<input type="text" id="city" class="formFields"><br><br>
+			<label for="email">Email</label>
+			<input type="text" id="email" class="formFields"><br><br>
+			<br><br>
+			<button class="btn btn-info" id="Add">Add Now</button> &nbsp; <button class="btn btn-info" id="Cancel">Cancel</button>
+			</div>
+			<br><br>
+			<div class="addbook">
+				<!--<div class="entry">
+				<div class="name"><p>Ravi Bellamkonda</p></div>
+				<div class="email"><p>Ravi@gmail.com</p></div>
+				<div class="phone"><p>5104-589-539</p></div>
+				<div class="address"><p>House no 8 , sector 19</p></div>
+				<div class="city"><p>Kodad</p></div>
+				<div class="del"><a href="#">Delete</a></div>
+			</div> -->
+			<strong>Here are the list of Contacts of Available</strong>
+			<table class="table table-hover" id="myTable" style="border: 2px solid steelblue" >
+				
+			</table>
+		</div>
+	</div>
+
+</body>
+</html>
